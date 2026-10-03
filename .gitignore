@@ -1,0 +1,22 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Python / AI server
+ai-server/venv/
+ai-server/__pycache__/
+__pycache__/
+*.pyc
+
+# Model weights and OCR cache (models download from Hugging Face automatically)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.traineddata
+*.backup
